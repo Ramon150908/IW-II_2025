@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>atividade lampada </title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 55px;
+    }
+    img {
+      width: 225px;
+      margin-bottom: 25px;
+    }
+    button {
+      padding: 15px 20px;
+      margin: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      border-radius: 7px;
+    }
+    #ligar {
+      background-color: #6d415c;
+      color: rgb(0, 0, 0);
+    }
+    #desligar {
+      background-color: #3e4bad;
+      color: rgb(0, 0, 0);
+    }
+    #estado {
+      font-size: 25px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Acenda e apague a lampada</h1>
+  <img id="lampada" src="img/lamp_off.PNG" alt="Lâmpada Desligada">
+  <p id="estado">aperte</p>
+  <div>
+    <button id="on">ON</button>
+    <button id="off">OFF</button>
+  </div>
+  <script src="script_lamp.js"></script>
+</body>
+</html>
