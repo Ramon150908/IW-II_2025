@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <input type="text" id="box" placeholder="Digite aqui" onkeyup="alterar()">
+    <br>
+    <p>Aqui vai aparecer algo ==> <span id="texto"></span></p>
+
+
+    <script>
+        var caixa = document.getElementById("box");
+        var texto = document.getElementById("texto");
+
+        function alterar(){
+            var letra = box.value;
+            //console.log(letra)
+            texto.innerHTML = letra;
+        };
+    </script>
+</body>
+</html>
